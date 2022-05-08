@@ -2,13 +2,16 @@
   min-height: 97vh;
   background-image: linear-gradient(
       to right,
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.2)
+      rgba(196, 176, 176, 0.5),
+      rgba(255, 255, 255, 0.64)
     ),
     url("./image/back3.jpeg");
   background-position: bottom right;
   background-size: cover;
   background-repeat: no-repeat;
+  display:flex ;
+  justify-content: center;
+  align-items: center;
 }
 
 .todo-application {
@@ -38,9 +41,11 @@
 }
 
 .section-home {
-  position: absolute;
+  text-align: center;
+  /* position: absolute;
   top: 50vh;
-  left: 10vw;
+  left: 10vw; */
+  
 }
 .section-home > h1 {
   font-weight: bold;
@@ -62,4 +67,8 @@
     left: 8vw;
     text-align: center;
   }
+}
+
+a {
+  color:#9a3412 !important
 }

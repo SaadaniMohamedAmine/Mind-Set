@@ -7,13 +7,14 @@ const Home = () => {
   return (
     <div style={{ padding: "5rem 1.25rem" }} className="home">
       <div className="section-home">
-        <h1 style={{ width: "90vw" }}>Plans are way to success </h1>
+        <h1 style={{ width: "90vw",textAlign:"center" }}>Plans are way to success </h1>
         <MDBBtn
           color="gray"
           style={{
-            border: "2px solid #000",
-            borderRadius: "30px",
+            border: "3px solid #9a3412",
+            borderRadius: "10px",
             fontWeight: "bold",
+            
           }}
         >
           <Link to="/todos" style={{ textDecoration: "none", color: "#000" }}>
